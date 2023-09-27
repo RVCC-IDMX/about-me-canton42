@@ -1,0 +1,32 @@
+body {
+    font-family:"IBM Plex Mono";
+    background-color: #2b2571;
+    color: #ccc8fd;
+
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Martian Mono";
+    font-size: 50pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color: #8c82ff;
+    border: 2px solid #8c82ff;
+    background-color: #1e1b52;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img {
+    width:450px;
+}
+
+#bio {
+    text-align:center;
+}
