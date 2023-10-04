@@ -52,9 +52,18 @@ header {
     font-size:20px;
 }
 
+#hobbies h2 {
+    text-align:center;
+}
+
 #gallery {
     background-color: #1e1b52;
     border: 2px solid #8c82ff;
+    margin-bottom:2rem;
+}
+
+#gallery h2 {
+    text-align:center;
 }
 
 #gallery img{
@@ -64,4 +73,34 @@ header {
 #gallery figure{
     font-size:20px;
     text-align:center;
+}
+
+#lit {
+    border: 2px solid #8c82ff;
+    margin-bottom:2rem;
+    background-color: #1e1b52;
+}
+
+#lit div {
+    padding:2rem;
+    max-width:40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding:0.3rem 0;
+    clear:both;
+    font-size:1rem;
+}
+
+#lit div p:nth-child(3n+1):first-letter {
+    color: #82b6ff;
+    border:4px outset #ccc8fd;
+    background-image:radial-gradient(#1d1b3f, #aaa9c7);
+    font-size:3rem;
+    float:left;
+    margin-right:.25em;
+    padding:.25em;
+    line-height:.30;
+    text-shadow:2px 2px 3px rgba(0, 0, 0, .5);
 }
