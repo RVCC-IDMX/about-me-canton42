@@ -50,10 +50,16 @@ header {
     background-color: white;
 }
 
+section#hobbies {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
 #hobbies {
     background-color: #1e1b52;
     border: 2px solid #8c82ff;
     font-size:20px;
+    
 }
 
 #hobbies h2 {
@@ -107,4 +113,19 @@ header {
     padding:.25em;
     line-height:.30;
     text-shadow:2px 2px 3px rgba(0, 0, 0, .5);
+}
+
+@media screen and (min-width:60em) {
+    figure {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
 }
