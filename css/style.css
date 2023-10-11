@@ -103,7 +103,11 @@ section#hobbies {
     font-size:1rem;
 }
 
-#lit div p:nth-child(3n+1):first-letter {
+#lit h2 {
+    text-align:center;
+}
+
+#lit div p:first-child:first-letter {
     color: #82b6ff;
     border:4px outset #ccc8fd;
     background-image:radial-gradient(#1d1b3f, #aaa9c7);
@@ -115,6 +119,7 @@ section#hobbies {
     text-shadow:2px 2px 3px rgba(0, 0, 0, .5);
 }
 
+/* This is about tablet size */
 @media screen and (min-width:60em) {
     figure {
         display:grid;
@@ -125,7 +130,33 @@ section#hobbies {
         display:flex;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin-left: 1rem;
     }
+}
+
+/* Larger Screen */
+@media screen and (min-width:100em) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display:none;
+    }
+
+    #gallery h2 {
+        grid-column:1/-1;
+    }
+
+    figure {
+        display:block;
+    }
+}
+
+#lit div {
+    max-width:100%;
+    columns:20rem;
+
 }
