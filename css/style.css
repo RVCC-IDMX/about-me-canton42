@@ -119,6 +119,33 @@ section#hobbies {
     text-shadow:2px 2px 3px rgba(0, 0, 0, .5);
 }
 
+#video {
+    background-color: #1e1b52;
+    border: 2px solid #8c82ff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video h2 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#myVideo iframe {
+    max-width: 100%;
+    border: 0;
+    width: 100%;
+                
+}
+
+#video figure {
+    font-size: 20px;
+    text-align: center;
+}
+
 /* This is about tablet size */
 @media screen and (min-width:60em) {
     figure {
