@@ -187,3 +187,70 @@ section#hobbies {
     columns:20rem;
 
 }
+
+
+#contact {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    background-color: #1e1b52;
+    border: 2px solid #8c82ff;
+    color: #ccc8fd;
+}
+
+#contact h2 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#contact fieldset {
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+}
+
+#contact legend {
+    font-size: 1.5em;
+    color: #8c82ff;
+}
+
+#name, #email, #phone, #phone-type, #message {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #8c82ff;
+    background-color: #2b2571;
+    color: #ccc8fd;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #8c82ff;
+    color: #1e1b52;
+    border: none;
+
+}
+
+#contact button:hover {
+    background-color: #a09bff;
+}
+
+@media screen and (max-width: 767px) {
+    #contact legend, #contact label {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #contact {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #name, #email, #phone, #phone-type {
+        max-width: 400px;
+    }
+}
