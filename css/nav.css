@@ -62,9 +62,15 @@ main {
     letter-spacing:2px;
     text-decoration:none;
     display:inline-block;
-
 }
 
+.navbar-links a:hover,
+.navbar-links a:focus {
+    color: #17143e;
+    background-color:#ccc8fd;
+    border-radius:10px;
+    outline:none;
+}
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
