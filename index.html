@@ -36,7 +36,7 @@
 
     <main>
         <section id="hero">
-            <!--Hero Section-->
+            <!--Hero Section: Shows Avatar and basic information-->
             <img src="img/avataaars.png" alt="avatar picture of me">
             <div>
                 <p>Nolan Canto</p>
@@ -46,7 +46,7 @@
         </section>
 
         <section id="bio">
-            <!--Bio Section: Personal Information-->
+            <!--Bio Section: Brief General Information-->
 
             <h2>Biography:</h2>
 
@@ -74,11 +74,12 @@
             <!--Hobbies Section End-->
         </section>
 
+        <!--Photo Gallery Section: Shows three neat images-->
         <section id="gallery">
             <h2>Photo Gallery</h2>
 
             <hr>
-
+            <!--Photo 1-->
             <figure>
                 <img src="img/render-640w.jpg" alt="A bad Blender render">
                 <figcaption>
@@ -88,7 +89,7 @@
             </figure>
 
             <hr>
-
+            <!--Photo 2-->
             <figure>
                 <img src="img/squirrel-640w.jpg" alt="A gluttonous squirrel">
                 <figcaption>
@@ -97,7 +98,7 @@
             </figure>
 
             <hr>
-
+            <!--Photo 3-->
             <figure>
                 <img src="img/groundhog-640w.jpg" alt="An even more gluttonous groundhog">
                 <figcaption>
@@ -105,12 +106,12 @@
                     under the bird feeder.
                 </figcaption>
             </figure>
-
             <!--Photo Gallery Section end-->
         </section>
 
+        <!--Biography Section: 500+ word research on a topic.-->
         <article id="lit">
-
+            <!--This is subject to change-->
             <h2>An Excerpt from Dracula</h2>
 
             <div>
@@ -182,20 +183,19 @@
                 <p>"But, I beseech you, do not go forth in anger with me. In a long life of acts which were often not pleasant to do, and which sometimes did wring my heart, I have never had so heavy a task as now. Believe me that if the time comes for you to change your mind towards me, one look from you will wipe away all this so sad hour, for I would do what a man can to save you from sorrow. Just think. For why should I give myself so much of labour and so much of sorrow? I have come here from my own land to do what I can of good; at the first to please my friend John, and then to help a sweet young lady, whom, too, I came to love. For her--I am ashamed to say so much, but I say it in kindness--I gave what you gave; the blood of my veins; I gave it, I, who was not, like you, her lover, but only her physician and her friend. I gave to her my nights and days--before death, after death; and if my death can do her good even now, when she is the dead Un-Dead, she shall have it freely." He said this with a very grave, sweet pride, and Arthur was much affected by it. He took the old man's hand and said in a broken voice:--</p>
 
             </div>
+            <!--Biography Section End-->
         </article>
+        
 
         <section id="video">
             <h2>A Short Video</h2>
-            <figure>
-                <!--NOTE: This is a temporary video that will be changed-->
-                <iframe id="myVideo" width="400" height="400" src="https://www.youtube.com/embed/b4XpMTUlorc?si=X2WICRSXYwYNMBNy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <figcaption>A work of art - temporary video - subject to change</figcaption>
-            </figure>
+            <div id="videoWrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/b4XpMTUlorc?si=urUG_U8G9f0xoVJ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </section>
 
-        <!--Contact Form-->
         <section id="contact">
-            <h2>Contact Us!</h2>
+            <h2>Contact Me!</h2>
             <form id="contactForm" name="contactForm" method="post" data-netlify="true">
                 <fieldset>
                   <legend>Contact Form:</legend>
@@ -220,7 +220,8 @@
                     <label for="message">Message (optional):</label>
                     <textarea id="message" name="message" rows="8"></textarea>
                 </fieldset>
-            
+                
+                <!--Reply Bubbles. Gives users a choice whether or not they would want a response-->
                 <fieldset>
                     <legend>Would you like a reply?</legend>
                     <ul>
@@ -238,16 +239,17 @@
                 </fieldset>
 
                 <button type="submit">Submit</button>
-
                 </div>
             </form>       
         </section>
+        <!--Contact Section End-->
 
     </main>
 
+    <!--Copyright Information-->
     <footer>
         © 2023 - Nolan Canto
     </footer>
-       
+    <!--Copyright Information End-->
 </body>
 </html>

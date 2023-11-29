@@ -95,10 +95,9 @@ section#hobbies {
 }
 
 #lit div {
-    padding:2rem;
+    padding:1rem;
     max-width:100%;
     margin: 0 auto;
-
 }
 
 #lit div p {
@@ -123,33 +122,33 @@ section#hobbies {
     text-shadow:2px 2px 3px rgba(0, 0, 0, .5);
 }
 
-#video {
+#videoWrapper iframe {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+#videoWrapper {
+    position:relative;
+    padding-bottom:75%;
     background-color: #1e1b52;
     border: 2px solid #8c82ff;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:100%;
+    color: #ccc8fd;
+}
+#video {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
 }
 
 #video h2 {
-    text-align: center;
-    margin: 1rem 0;
-}
-
-#myVideo iframe {
-    width: 100%;
-    height:auto;
-    border: 0;            
-}
-
-#video figure {
-    font-size: 20px;
-    text-align: center;
-    width:100%;
-    margin-top:1rem;
+    background-color: #1e1b52;
+    border: 2px solid #8c82ff;
+    color: #ccc8fd;
+    padding:10px;
+    text-align:center;
 }
 
 
@@ -249,30 +248,11 @@ section#hobbies {
     #contact legend, #contact label {
         font-size: 1.2em;
     }
-
-    #video figure {
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    #myVideo iframe {
-        width: 100%;
-        height: auto;
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     #contact {
         padding: 1.5rem;
-    }
-
-    #video figure {
-        width: 100%;
-    }
-
-    #myVideo iframe {
-        width: 100%;
-        height: auto;
     }
 }
 
