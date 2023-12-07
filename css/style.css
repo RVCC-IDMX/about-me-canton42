@@ -39,81 +39,93 @@ header {
     width:100%;
     max-width:450px;
 }
-
-#bio {
-    text-align:center;
-    font-size:30px;
-}
-
-#hobbies ul li:nth-child(even) {
-    color: rgb(0, 255, 0);
-    background-color: black;
-}
-
-#hobbies ul li:nth-child(odd) {
-    color: red;
-    background-color: white;
-}
-
-section#hobbies {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-    width:100%;
-}
-
-#hobbies {
-    background-color: #1e1b52;
+/* formatting for bio and hobbies text */
+.bio-content, .hobbies-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.2rem;
     border: 2px solid #8c82ff;
-    font-size:20px;
-    
+    margin-bottom:2rem;
+    background-color: #1e1b52;
 }
-
-#hobbies h2 {
+/* styling for bio */
+.bio h2{
     text-align:center;
+    border: 2px solid #8c82ff;
+    background-color: #1e1b52;
+
+}
+/* formatting for both bio and hobbies section */
+.bio-content p, .hobbies-content p, .hobbies-content ul {
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+/* formating for hobbies text */
+.hobbies-content ul {
+    list-style-type: square;
+    padding-left: 20px;
 }
 
+/* margins for hobbies text */
+.hobbies-content li {
+    margin-bottom: 0.5rem;
+}
+/* styling for hobbies section title */
+.hobbies h2{
+    text-align:center;
+    border: 2px solid #8c82ff;
+    background-color: #1e1b52;
+
+}
+/* general styling for gallery section */
 #gallery {
     background-color: #1e1b52;
     border: 2px solid #8c82ff;
     margin-bottom:2rem;
 }
-
+/* styling for gallery section title */
 #gallery h2 {
     text-align:center;
 }
-
+/* styling for gallery images and media*/
 #gallery img{
     max-width:100%;
+    border: 2px solid #8c82ff;
+    box-shadow:10px 10px 8px rgba(0, 0, 0, .5);
 }
 
+/* gallery text captions */
 #gallery figure{
     font-size:20px;
     text-align:center;
 }
 
+/* styling for literature section */
 #lit {
     border: 2px solid #8c82ff;
     margin-bottom:2rem;
     background-color: #1e1b52;
 }
-
+/* literature div styling */
 #lit div {
     padding:1rem;
     max-width:100%;
     margin: 0 auto;
+    columns:20rem;
 }
-
+/* literature paragraph styling */
 #lit div p {
     padding:0.3rem 0;
     clear:both;
     font-size:1rem;
 }
-
+/* literature section title styling */
 #lit h2 {
     text-align:center;
 }
-
+/* The first letter in literature div will be uniquely styled */
 #lit div p:first-child:first-letter {
     color: #82b6ff;
     border:4px outset #ccc8fd;
@@ -126,6 +138,7 @@ section#hobbies {
     text-shadow:2px 2px 3px rgba(0, 0, 0, .5);
 }
 
+/* iframe styling */
 #videoWrapper iframe {
     position:absolute;
     top:0px;
@@ -133,6 +146,7 @@ section#hobbies {
     width:100%;
     height:100%;
 }
+/* videoWrapper styling */
 #videoWrapper {
     position:relative;
     padding-bottom:75%;
@@ -140,6 +154,7 @@ section#hobbies {
     border: 2px solid #8c82ff;
     color: #ccc8fd;
 }
+/* Media styling */
 #video {
     width:50%;
     margin-left:auto;
@@ -147,6 +162,7 @@ section#hobbies {
     padding:20px;
 }
 
+/* video section title styling */
 #video h2 {
     background-color: #1e1b52;
     border: 2px solid #8c82ff;
@@ -154,8 +170,6 @@ section#hobbies {
     padding:10px;
     text-align:center;
 }
-
-
 
 /* This is about tablet size */
 @media screen and (min-width:60em) {
@@ -193,13 +207,7 @@ section#hobbies {
     }
 }
 
-#lit div {
-    max-width:100%;
-    columns:20rem;
-
-}
-
-
+/* Contact Form styling */
 #contact {
     max-width: 100%;
     margin: auto;
@@ -209,11 +217,13 @@ section#hobbies {
     color: #ccc8fd;
 }
 
+/* Contact form title formatting*/
 #contact h2 {
     text-align: center;
     margin: 1rem 0;
 }
 
+/* Contact form text-box formatting */
 #contact fieldset {
     margin-bottom: 20px;
     border: none;
@@ -225,6 +235,7 @@ section#hobbies {
     color: #8c82ff;
 }
 
+/* This is visual styling for each part of the Contact Form section*/
 #name, #email, #phone, #phone-type, #message {
     display: block;
     width: 100%;
@@ -236,6 +247,7 @@ section#hobbies {
     color: #ccc8fd;
 }
 
+/* Styling for the contact form buttons (the ones you can click on) */
 #contact button {
     padding: 10px 20px;
     background-color: #8c82ff;
@@ -244,9 +256,11 @@ section#hobbies {
 
 }
 
+/* Hover effect for contact form buttons */
 #contact button:hover {
     background-color: #a09bff;
 }
+
 
 @media screen and (max-width: 767px) {
     #contact legend, #contact label {
