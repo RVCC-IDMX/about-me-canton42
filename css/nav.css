@@ -87,3 +87,36 @@ such that no text wraps
         justify-content:space-between;
     }
 }
+
+/* Hamburger Menu Styling */
+.hamburger {
+    display: none; /* Initially hide the hamburger */
+    cursor: pointer;
+    padding: 10px;
+    /* Additional styling as needed */
+}
+
+.hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #ccc8fd;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hide the navbar links by default on small screens */
+@media screen and (max-width: 767px) {
+    .hamburger {
+        display: block; /* Show the hamburger */
+    }
+
+    .navbar-links {
+        display: none; /* Hide the links initially */
+    }
+
+    /* When any element inside navbar is focused, display the links */
+    .navbar:focus-within .navbar-links {
+        display: block;
+    }
+}
