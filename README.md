@@ -10,9 +10,6 @@ This website has been created to serve as a biography for myself and to showcase
 
 Besides some refinement on the website's presentation. Here are some improvements I would like to implement in the future:
 
-- Functional "Hamburger" menu.
-- An overhauled Biography section.
-- An overhauled Hobbies section.
 - A unique topic that will replace the Literature section.
 - A new video on the video section related to the topic in the Literature section.
 
@@ -54,6 +51,10 @@ Below is the list of HEX values which represent the main colors I used to create
 - '#ccc8fd' - The main color used for text on the website. It is a bright color that is a mixture of white, purple, and blue.
 - '#2b2571' - The color used for the background of the website. It is a dark blue/purple color. 
 - '#1e1b52' - The color used for the background of content on the website. It is a darker shade of blue/purple and contrasts better with the text on the website.
+
+## Navbar
+
+The navbar is an important part in making sure that a website can be accessed and navigated easily on a variety of devices. A lot of people nowadays prefer to casually browse the web on their smartphones, so for my website I've implemented a "hamburger" menu. It is a small icon located on the top of the screen that can only be seen on mobile screen sizes. When clicked, the menu will expand and show links to each section of the website. When one of the links is clicked, the menu will close again.
 
 ## Citations
 
