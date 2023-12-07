@@ -2,6 +2,10 @@
 
 This website has been created to serve as a biography for myself and to showcase various topics and media. It showcases various techniques and skills learned in the IDMX-225 course. Currently, this website features multiple types of media, a hero section, a contact form section, a gallery section, a custom SVG formatted logo, and a functioning navbar with hover effects.
 
+## Netlify Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9cdd07e7-25d0-4eba-832a-6447f88dc837/deploy-status)](https://app.netlify.com/sites/about-me-canton42/deploys)
+
 ## What's Next?
 
 Besides some refinement on the website's presentation. Here are some improvements I would like to implement in the future:
