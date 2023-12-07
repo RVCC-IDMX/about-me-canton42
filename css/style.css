@@ -96,6 +96,12 @@ header {
     box-shadow:10px 10px 8px rgba(0, 0, 0, .5);
 }
 
+/*Hover effect for image gallery. The box shadow will turn white instead of black and the border will turn cyan. */
+#gallery img:hover {
+    box-shadow: 10px 10px 8px rgba(255, 255, 255, 0.5);
+    border: 2px solid rgb(130, 236, 255);
+}
+
 /* gallery text captions */
 #gallery figure{
     font-size:20px;
