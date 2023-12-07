@@ -56,9 +56,14 @@ Below is the list of HEX values which represent the main colors I used to create
 
 The navbar is an important part in making sure that a website can be accessed and navigated easily on a variety of devices. A lot of people nowadays prefer to casually browse the web on their smartphones, so for my website I've implemented a "hamburger" menu. It is a small icon located on the top of the screen that can only be seen on mobile screen sizes. When clicked, the menu will expand and show links to each section of the website. When one of the links is clicked, the menu will close again.
 
-## Citations
+## Citations/Sources
 
 - [Commodore 64 font used for logo (C64 TrueType v1.2.1)](https://style64.org/release/c64-truetype-v1.2.1-style)
+- [CSS Hover Effects CodePen by Golubev](https://codepen.io/cltpcxsd-the-sasster/pen/MWBBmOW)
+- [CSS Hover Effects CodePen by Naoya](https://codepen.io/cltpcxsd-the-sasster/pen/MWBBmOW)
+- [CSS Div Image Hover video by Web Zone](https://www.youtube.com/watch?v=Zz8A4NqoLrE)
+- [How TO - Image Hover Overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+
 
 
 ## License
